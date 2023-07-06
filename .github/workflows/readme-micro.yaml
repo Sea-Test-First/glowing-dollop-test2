@@ -12,7 +12,7 @@ jobs:
       - name: Checkout this repo
         uses: actions/checkout@v3
 
-      # Run GitHub Action to sync all OpenAPI files in the repo
+      # Run GitHub Action to sync all OpenAPI files in the repo...
       - name: GitHub Action
         uses: readmeio/readme-micro@v2.2.0
         
